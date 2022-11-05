@@ -1,0 +1,24 @@
+{
+  "name": "pure-vue3",
+  "version": "1.0.0",
+  "description": "纯净版vue3源码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoeyNoi/pure-vue3.git"
+  },
+  "keywords": [],
+  "author": "Noey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoeyNoi/pure-vue3/issues"
+  },
+  "homepage": "https://github.com/NoeyNoi/pure-vue3#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vitest": "^0.22.1"
+  }
+}

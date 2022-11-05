@@ -1,0 +1,14 @@
+{
+  "name": "@pure-vue/compiler-core",
+  "version": "1.0.0",
+  "description": "@pure-vue/compiler-core",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Noey",
+  "license": "ISC",
+  "dependencies": {
+    "@pure-vue/shared": "workspace:^1.0.0"
+  }
+}

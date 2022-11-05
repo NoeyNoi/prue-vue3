@@ -1,0 +1,17 @@
+{
+  "name": "pure-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Noey",
+  "license": "ISC",
+  "dependencies": {
+    "@pure-vue/compiler-core": "workspace:^1.0.0",
+    "@pure-vue/runtime-dom": "workspace:^1.0.0",
+    "@pure-vue/shared": "workspace:^1.0.0"
+  }
+}

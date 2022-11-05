@@ -1,0 +1,15 @@
+{
+  "name": "@pure-vue/runtime-dom",
+  "version": "1.0.0",
+  "description": "@pure-vue/runtime-dom",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Noey",
+  "license": "ISC",
+  "dependencies": {
+    "@pure-vue/runtime-core": "workspace:^1.0.0",
+    "@pure-vue/shared": "workspace:^1.0.0"
+  }
+}
