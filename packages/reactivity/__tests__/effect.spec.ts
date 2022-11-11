@@ -16,4 +16,17 @@ describe("reactivity/effect", () => {
     counter.num++
     expect(dummy).toBe(1)
   })
+
+  it('should return runner when call effect', () => {
+    let num = 1
+    const runner = effect(() => {
+      num++
+      return "num"
+    })
+    
+    expect(num).toBe(2)
+    const r = runner()
+    expect(num).toBe(3)
+    expect(r).toBe("num")
+  })
 })
